@@ -1,5 +1,5 @@
 import { Flex } from '@chakra-ui/react'
-import { Sidebar } from './components/sidebar'
+import { Sidebar } from '../components/sidebar'
 
 export default function Home() {
   return (

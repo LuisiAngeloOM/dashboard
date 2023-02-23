@@ -5,6 +5,7 @@ import NextDocument, {
   Head,
   Html,
   Main,
+  // eslint-disable-next-line prettier/prettier
   NextScript
 } from 'next/document'
 
