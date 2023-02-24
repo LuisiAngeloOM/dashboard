@@ -1,6 +1,9 @@
-import { Box, ListItem, UnorderedList } from '@chakra-ui/react'
+import { Box, createIcon, ListItem, UnorderedList } from '@chakra-ui/react'
 import diamond from '../../assets/diamond.svg'
 import juditeIcon from '../../assets/logo_judite.svg'
+import styles from './sidebar.module.scss'
+
+export const diamondAsset = createIcon(diamond)
 
 export function Sidebar() {
   return (
@@ -8,9 +11,10 @@ export function Sidebar() {
       <img src={juditeIcon.src} />
       <UnorderedList>
         <ListItem color="gray.200">
-          <div>
+          {/* <ListIcon as={diamondAsset} /> */}
+          <div className={styles.items}>
             <img src={diamond.src} />
-            <h6>Enabled</h6>
+            <h6 className={styles.itemsText}>Enabled</h6>
           </div>
         </ListItem>
         <ListItem color="gray.200">Disabled</ListItem>
