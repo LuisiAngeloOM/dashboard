@@ -12,21 +12,21 @@ export function Sidebar() {
         <img src={juditeIcon.src} />
       </div>
       <UnorderedList>
-        <ListItem color="gray.200">
+        <ListItem color="gray.200" listStyleType="none" key="whatever-key">
           {/* <ListIcon as={diamondAsset} /> */}
           <div className={styles.items}>
             <img src={diamond.src} alt="Diamond" height="22" width="22" />
             <h6 className={styles.itemsText}>Enabled</h6>
           </div>
         </ListItem>
-        <ListItem color="gray.200">
+        <ListItem color="gray.200" listStyleType="none" key="whatever-key">
           {/* <ListIcon as={diamondAsset} /> */}
           <div className={styles.items}>
             <img src={diamond.src} alt="Diamond" height="22" width="22" />
             <h6 className={styles.itemsText}>Disabled</h6>
           </div>
         </ListItem>
-        <ListItem color="gray.200">
+        <ListItem color="gray.200" listStyleType="none" key="whatever-key">
           {/* <ListIcon as={diamondAsset} /> */}
           <div className={styles.items}>
             <img src={diamond.src} alt="Diamond" height="22" width="22" />
