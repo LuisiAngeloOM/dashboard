@@ -15,21 +15,21 @@ export function Sidebar() {
         <ListItem color="gray.200">
           {/* <ListIcon as={diamondAsset} /> */}
           <div className={styles.items}>
-            <img src={diamond.src} />
+            <img src={diamond.src} alt="Diamond" height="22" width="22" />
             <h6 className={styles.itemsText}>Enabled</h6>
           </div>
         </ListItem>
         <ListItem color="gray.200">
           {/* <ListIcon as={diamondAsset} /> */}
           <div className={styles.items}>
-            <img src={diamond.src} />
+            <img src={diamond.src} alt="Diamond" height="22" width="22" />
             <h6 className={styles.itemsText}>Disabled</h6>
           </div>
         </ListItem>
         <ListItem color="gray.200">
           {/* <ListIcon as={diamondAsset} /> */}
           <div className={styles.items}>
-            <img src={diamond.src} />
+            <img src={diamond.src} alt="Diamond" height="22" width="22" />
             <h6 className={styles.itemsText}>Hovered</h6>
           </div>
         </ListItem>
