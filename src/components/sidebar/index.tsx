@@ -7,8 +7,10 @@ export const diamondAsset = createIcon(diamond)
 
 export function Sidebar() {
   return (
-    <Box bg="neutral.900" width="12.5rem" height="100%">
-      <img src={juditeIcon.src} />
+    <Box bg="neutral.900" width="12.5rem" height="100%" minHeight="43.5rem">
+      <div className={styles.juditeIcon}>
+        <img src={juditeIcon.src} />
+      </div>
       <UnorderedList>
         <ListItem color="gray.200">
           {/* <ListIcon as={diamondAsset} /> */}
@@ -17,8 +19,20 @@ export function Sidebar() {
             <h6 className={styles.itemsText}>Enabled</h6>
           </div>
         </ListItem>
-        <ListItem color="gray.200">Disabled</ListItem>
-        <ListItem color="gray.200">Hovered</ListItem>
+        <ListItem color="gray.200">
+          {/* <ListIcon as={diamondAsset} /> */}
+          <div className={styles.items}>
+            <img src={diamond.src} />
+            <h6 className={styles.itemsText}>Disabled</h6>
+          </div>
+        </ListItem>
+        <ListItem color="gray.200">
+          {/* <ListIcon as={diamondAsset} /> */}
+          <div className={styles.items}>
+            <img src={diamond.src} />
+            <h6 className={styles.itemsText}>Hovered</h6>
+          </div>
+        </ListItem>
       </UnorderedList>
     </Box>
   )

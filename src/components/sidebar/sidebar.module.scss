@@ -1,6 +1,7 @@
 .items {
     display: flex;
     flex-direction: row;
+    padding-bottom: 0.5rem;
 }
 
 .itemsText {
@@ -10,4 +11,9 @@
 
 }
 
-.imageJudite {}
+.juditeIcon {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
